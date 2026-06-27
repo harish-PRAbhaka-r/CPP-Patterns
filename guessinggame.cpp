@@ -4,8 +4,8 @@
 int main(){
     std::srand(std::time(nullptr));
     int num=(std::rand()%100)+1;
-    int guesscount=7;
-    for(int i=1;i<=7;i++){
+    int guesscount=8;
+    for(int i=1;i<=8;i++){
         int guess;
         std::cout<<"\nEnter the number:";
         std::cin>>guess;
